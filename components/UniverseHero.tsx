@@ -191,7 +191,7 @@ export default function UniverseHero() {
             
             {/* Inner core */}
             <div className="w-28 h-28 rounded-full bg-gradient-to-br from-yellow-200 to-orange-400 flex items-center justify-center relative z-10">
-              <span className="text-xl font-bold text-orange-900 drop-shadow-lg">ಠ_ಠ</span>
+              <span className="text-xl font-bold text-orange-900 drop-shadow-lg">(๑ᵔ⤙ᵔ๑)</span>
             </div>
           </div>
         </div>
