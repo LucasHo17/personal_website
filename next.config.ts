@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // Vercel supports full Next.js features, no need for static export
   images: {
-    unoptimized: true
+    unoptimized: true, // You can remove this if you want Vercel's image optimization
   },
-  basePath: '/personal_website', // Only if repo is NOT named username.github.io
-  assetPrefix: '/personal_website', // Only if repo is NOT named username.github.io
 };
 
 export default nextConfig;
